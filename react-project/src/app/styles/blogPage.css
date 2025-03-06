@@ -1,0 +1,133 @@
+/* blogPage.module.css */
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .header {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .formContainer {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .input, .textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus, .textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .textarea {
+    width: 100%;
+    min-height: 200px;
+  }
+  
+  .input {
+    width: 100%;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .blogTable {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .blogTable th, .blogTable td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .blogTable th {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .blogTable td {
+    background-color: #fff;
+    font-size: 16px;
+  }
+  
+  .blogTable tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .editButton, .deleteButton {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .editButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
+  .editButton:hover {
+    background-color: #218838;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+
+.logoutButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logoutButton:hover {
+    background: #c82333;
+  }

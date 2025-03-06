@@ -1,0 +1,42 @@
+.signupContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .signupForm input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:disabled {
+    background-color: #ccc;
+  }
+  
+  .errorMessage {
+    color: red;
+  }
+  
+  .loginRedirect {
+    margin-top: 20px;
+  }
+  
+  .loginLink {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
