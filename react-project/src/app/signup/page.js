@@ -59,7 +59,7 @@ export default function SignupPage() {
       <div className="loginRedirect">
         <p>
           Already have an account?{" "}
-          <a href="/login" className="loginLink">Login here</a>
+          <a href="/auth" className="loginLink">Login here</a>
         </p>
       </div>
     </div>
