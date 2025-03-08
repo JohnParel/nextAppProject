@@ -65,9 +65,9 @@ export default function BlogPage() {
     <div className="container">
       <button onClick={handleLogout} className="logoutButton">Logout</button>
 
-      <h1 className="header">Blog</h1>
 
       <div className="formContainer">
+      <h1 className="header">Blog</h1>
         <input
           type="text"
           placeholder="Title"
